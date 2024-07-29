@@ -33,8 +33,25 @@ document.addEventListener("DOMContentLoaded", function () { // On DOM Load initi
     if (textArray.length) setTimeout(type, newTextDelay + 250);
 });
 
+// Toggle navbar
+const menuIcon = document.getElementById('menu-icon');
+const navbar = document.querySelector('.navbar');
 
-//copy to clipboard
+menuIcon.addEventListener('click', () => {
+    navbar.classList.toggle('active');
+});
+
+// Update active link
+const navLinks = document.querySelectorAll('.navbar a');
+
+navLinks.forEach(link => {
+    link.addEventListener('click', function() {
+        navLinks.forEach(navLink => navLink.classList.remove('active'));
+        this.classList.add('active');
+    });
+});
+
+// Copy to clipboard
 function copyToClipboard(text) {
     const tempInput = document.createElement('input');
     tempInput.value = text;
@@ -44,3 +61,33 @@ function copyToClipboard(text) {
     document.body.removeChild(tempInput);
     alert('WhatsApp number copied to clipboard');
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const projectFilters = document.querySelectorAll('.project-filter li');
+
+    projectFilters.forEach(filter => {
+        filter.addEventListener('click', function() {
+            // Remover la clase activa de todos los filtros
+            projectFilters.forEach(item => item.classList.remove('project-filter-active'));
+            
+            // Agregar la clase activa al filtro seleccionado
+            this.classList.add('project-filter-active');
+
+            // Obtener el valor del filtro seleccionado
+            const filterValue = this.getAttribute('data-filter');
+
+            // Mostrar u ocultar proyectos según el filtro seleccionado
+            const projects = document.querySelectorAll('.project-box');
+
+            projects.forEach(project => {
+                const projectType = project.classList;
+
+                if (filterValue === 'all' || projectType.contains(filterValue)) {
+                    project.style.display = 'block';
+                } else {
+                    project.style.display = 'none';
+                }
+            });
+        });
+    });
+});
