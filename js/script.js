@@ -67,18 +67,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
     projectFilters.forEach(filter => {
         filter.addEventListener('click', function() {
-            // Remover la clase activa de todos los filtros
+            //Remove active class from all filters
             projectFilters.forEach(item => item.classList.remove('project-filter-active'));
             
-            // Agregar la clase activa al filtro seleccionado
+            //Add active class to the clicked filter
             this.classList.add('project-filter-active');
 
-            // Obtener el valor del filtro seleccionado
+            // Get the filter value
             const filterValue = this.getAttribute('data-filter');
 
-            // Mostrar u ocultar proyectos según el filtro seleccionado
+            // Get all project boxes
             const projects = document.querySelectorAll('.project-box');
 
+            // Loop through all project boxes
             projects.forEach(project => {
                 const projectType = project.classList;
 
