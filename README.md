@@ -89,6 +89,8 @@
   </div>
 
   <!-- Portfolio Link -->
-  <div style="margin-top: 30px;">
-    <h2 style="font-family: 'Roboto', sans-serif; color: #F10086; font-size: 1.8em;">Explore My Work</h2>
-    <a href="https://main
+<div style="margin-top: 30px;">
+  <h2 style="font-family: 'Roboto', sans-serif; color: #F10086; font-size: 1.8em;">Explore My Work</h2>
+  <a href="https://main--nadialucas.netlify.app/" target="_blank" style="font-size: 1.2em; color: #7d8c8d; text-decoration: none; border-bottom: 2px solid #7d8c8d;">View My Portfolio</a>
+</div>
+
