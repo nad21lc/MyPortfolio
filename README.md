@@ -1,38 +1,28 @@
 <div align="center">
-  <h1 style="font-family: 'Roboto', sans-serif; color: #F10086; font-size: 2.5em;">Welcome to My Portfolio 👋</h1>
+  <h1 style="font-family: 'Roboto', sans-serif; color: #F10086; font-size: 2.5em;">Hi there! I'm Nadia Lucas 👋</h1>
 
   <!-- Description and Image -->
   <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
     <div style="text-align: center;">
-      <p style="font-size: 1.2em; color: #fff;">Hi there! I'm Nadia Lucas, a Full-Stack Developer and Software Engineering student. Explore my projects and see what I'm up to!</p>
+      <p style="font-size: 1.2em; color: #fff;">I'm a Full-Stack Developer and Software Engineering student. Explore my projects and see what I'm up to! 🐲 </p>
     </div>
-  </div>
-
-  <!-- GitHub Stats and GIF -->
-  <div style="display: flex; align-items: center; gap: 20px; justify-content: center;">
-    <div>
-  <!-- Top Languages -->
-  <div style="flex: 1; text-align: center;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nad21lc&layout=compact&theme=dracula" alt="Top Languages" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); max-width: 100%;">
+    <!-- GIF -->
+    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTNa6M3cxdGo3cWVuajh0ZGN0OTAxNWxsdTVuc3dxc2hkeXA1YjlnZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vKH4mU0p1leRjYRyjx/giphy.gif" width="300" alt="Animated         Image" style="border-radius: 50px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); width:250px;">
   </div>
 
   <!-- GitHub Stats -->
- <div style="flex: 1; text-align: center;">
-    <img src="https://github-readme-stats.vercel.app/api?username=nad21lc&theme=dracula&show_icons=true" alt="Nadia's GitHub stats" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); max-width: 100%;">
- </div>
-</div>
-
- <!-- GIF -->
- <div style="flex: 1; text-align: center;">
-    <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTN6M3cxdGo3cWVuajh0ZGN0OTAxNWxsdTVuc3dxc2hkeXA1YjlnZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vKH4mU0p1leRjYRyjx/giphy.gif" width="300" alt="Animated Image" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-    </div>
- </div>
+  <h2 style="font-family: 'Roboto', sans-serif; color: #F10086; font-size: 1.8em;">My GitHub Stats ✨</h2>
+  
+  <div style="display: flex; flex-direction: row; align-items: center; gap: 20px; justify-content: center;">
+    <img src="https://github-readme-stats.vercel.app/api?username=nad21lc&theme=dracula&show_icons=true" alt="Nadia's GitHub stats" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); max-width:         100%;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nad21lc&layout=compact&theme=dracula" alt="Top Languages" style="border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.2); max-             width: 100%;">
+  </div>
 
   <!-- Skills -->
-  <section style="text-align: center; margin-bottom: 30px;">
-    <h2 style="font-family: 'Roboto', sans-serif; color: #F10086; font-size: 1.8em;">My Skills</h2>
+  <div style="text-align: center; margin-bottom: 30px;">
+    <h2 style="font-family: 'Roboto', sans-serif; color: #F10086; font-size: 1.8em;">My Skills 💪</h2>
     <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; color: #fff;">
-      <!-- Frontend Skills -->
+    <!-- Frontend Skills -->
       <div style="flex: 1; min-width: 200px;">
         <h3 style="font-size: 1.5em; color: #fff;">Frontend</h3>
         <div>
@@ -79,18 +69,22 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   <!-- Contact Section -->
   <div style="margin-top: 30px;">
-    <h2 style="font-family: 'Roboto', sans-serif; color: #F10086; font-size: 1.8em;">Contact Me</h2>
+    <h2 style="font-family: 'Roboto', sans-serif; color: #F10086; font-size: 1.8em;">Contact Me 📧</h2>
     <p style="font-size: 1.1em; color: #fff;">For any inquiries or opportunities, feel free to reach out:</p>
-    <a href="mailto:nad21lc@gmail.com" style="font-size: 1.2em; color: #7d8c8d; text-decoration: none; border-bottom: 2px solid #7d8c8d;">Email Me</a>
+    <a href="mailto:nad21lc@gmail.com" style="font-size: 1.2em; color: #7d8c8d; text-decoration: none; border-bottom: 2px solid #7d8c8d;">
+      <img alt="email me" src="https://img.shields.io/static/v1?label&message=email+me&color=7E3ACE&style=for-the-badge"/>
+    </a>
   </div>
 
   <!-- Portfolio Link -->
-<div style="margin-top: 30px;">
-  <h2 style="font-family: 'Roboto', sans-serif; color: #F10086; font-size: 1.8em;">Explore My Work</h2>
-  <a href="https://main--nadialucas.netlify.app/" target="_blank" style="font-size: 1.2em; color: #7d8c8d; text-decoration: none; border-bottom: 2px solid #7d8c8d;">View My Portfolio</a>
-</div>
+  <div style="margin-top: 30px;">
+    <h2 style="font-family: 'Roboto', sans-serif; color: #F10086; font-size: 1.8em;">Explore My Work 🚀</h2>
+    <a href="https://nadialucas.netlify.app/" >
+      <img alt="link to my portfolio" src="https://img.shields.io/static/v1?label&message=open+portfolio&color=7E3ACE&style=for-the-badge" />
+    </a>
+  </div>
 
